@@ -24,6 +24,7 @@ body{
     font-size: 18px;
     color: #e5e7eb;
     padding-bottom: 10px;
+    max-width: 500px;
 }
 
 .info-header{
@@ -90,12 +91,14 @@ body{
     justify-content: center;
     background-color: #1f2937;
     color: white;
+    padding: 40px;
 }
 .img{
     max-width: 300px;
 }
 .block{
     display: flex;
+    justify-content: space-around;
 }
 .header{
     display: flex;
@@ -121,28 +124,29 @@ ul{
     gap: 16px;
 }
 .box{
-   height: 70px; 
-   width: 70px;
+   height: 120px; 
+   width: 120px;
    border-radius: 10px;
    border-color: #3882f6;
    border-style: solid;
 }
 .boxes{
     display: flex;
-    gap: 60px;
+    gap: 80px;
+    justify-content: center;
 }
 .mid{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 70px;
+    justify-content:space-around ;
 }
 .container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    justify-content: center;
+    max-width: 120px;
 }
+
 .subtext{
-    max-width: 100px;
+    text-align: center;
+    margin-top: 7px;
 }
